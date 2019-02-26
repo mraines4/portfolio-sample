@@ -11,17 +11,21 @@ html {
     background: black;
 }
 
-.title-text {
-    border: 3px solid red;
+.nav-name-text {
+    /* border: 3px solid red; */
+    font-size: 16px;
 }
 
 .nav {
-    border: 3px solid blue;
-    padding: 0;
+    /* border: 3px solid blue; */
+    padding: 12px;
+    font-size: 12px;
+    float: right;
 }
 
 .top-bar {
     background: rgba(0, 0, 255, 0.7);
+    padding: 0 8px;
 }
 
 .top-bar .title-text, .top-bar .nav {
@@ -33,3 +37,22 @@ html {
     padding-left: 8px;
 }
 
+.comp-image {
+    background-image: url(../images/computer-plain.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.welcome-message {
+    text-align: center;
+    font-size: 32px;
+    /* border: 3px solid red; */
+    margin-top: 100px;
+    text-shadow: 2px 2px 2px #1C6EA4;
+}
+
+.secondary-text {
+    font-size: 20px;
+    font-style: italic;
+}
