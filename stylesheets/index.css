@@ -40,7 +40,7 @@ html {
     background-image: url(../images/computer-plain.jpg);
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 500px;
 }
 
 .welcome-message {
@@ -52,6 +52,6 @@ html {
 }
 
 .secondary-text {
-    font-size: 20px;
+    font-size: 24px;
     font-style: italic;
 }
