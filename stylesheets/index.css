@@ -1,1 +1,14 @@
 /* add styles here */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div {
+    width: 400px;
+    padding: 10px;
+    background: red;
+    color: white;
+}
