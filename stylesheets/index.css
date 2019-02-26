@@ -23,8 +23,9 @@ html {
 }
 
 .top-bar {
-    background: rgba(0, 0, 255, 0.7);
+    background: rgba(44, 44, 50, 0.612);
     padding: 0 20px;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .top-bar .title-text, .top-bar .nav {
@@ -45,13 +46,28 @@ html {
 
 .welcome-message {
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     /* border: 3px solid red; */
     margin-top: 100px;
     text-shadow: 2px 2px 2px #1C6EA4;
 }
 
 .secondary-text {
-    font-size: 24px;
+    font-size: 30px;
     font-style: italic;
+}
+
+.about {
+    font-size: 20px;
+    height: 300px;
+    /* border: 3px solid red; */
+}
+
+.about img {
+    border: 15px solid white;
+    border-radius: 100%;
+    margin-top: -140px;
+    margin-right: 140px;
+    width: 400px;
+    float: right;
 }
