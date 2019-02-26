@@ -1,4 +1,3 @@
-/* add styles here */
 html {
     box-sizing: border-box;
 }
@@ -6,9 +5,9 @@ html {
     box-sizing: inherit;
 }
 
-div {
-    width: 400px;
-    padding: 10px;
-    background: red;
+.comp-image {
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
 }
+
