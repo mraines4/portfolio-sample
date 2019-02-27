@@ -103,11 +103,13 @@ html {
     border: 3px solid red;
     height: 500px;
     margin: 0;
+    display: flex;
 }
 
 .project {
     border: 3px solid blue;
     display: inline-block;
     height: 100%;
+    width: 100%;
     margin: 0;
 }
