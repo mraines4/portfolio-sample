@@ -71,3 +71,30 @@ html {
     width: 400px;
     float: right;
 }
+
+.skills {
+    background-image: url(../images/skills-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    height: 400px;
+    /* border: 3px solid red; */
+}
+
+.skills-header {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.row-icon li {
+    display: inline;
+    text-align: center;
+    color: white;
+}
