@@ -98,3 +98,16 @@ html {
     text-align: center;
     color: white;
 }
+
+.recent-projects {
+    border: 3px solid red;
+    height: 500px;
+    margin: 0;
+}
+
+.project {
+    border: 3px solid blue;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
