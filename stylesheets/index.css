@@ -90,13 +90,16 @@ html {
 }
 
 .icons {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
 }
 
 .row-icon li {
     display: inline;
     text-align: center;
     color: white;
+    justify-content: center;
 }
 
 .recent-projects {
